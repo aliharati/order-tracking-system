@@ -29,7 +29,7 @@ services:
     container_name: order-tracking-backend-prod
     restart: unless-stopped
     ports:
-      - "5000:5000"
+      - "5050:5000"
     env_file:
       - .env
     environment:
